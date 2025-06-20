@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex Card - Travel Smart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header>
+        <div class="container">
+            <h1>Forex Card - Travel Smart</h1>
+            <p>Your travel companion for a hassle-free experience abroad!</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="container">
+                <h2>What is a Forex Card?</h2>
+                <p>A Forex card is a prepaid travel card that allows you to carry multiple currencies and spend securely during international travel. Say goodbye to currency exchange hassles and hidden charges!</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Multiple Currencies</h3>
+                        <p>Load and manage multiple currencies in a single card.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Exchange Rate Lock</h3>
+                        <p>Lock in exchange rates to avoid fluctuations.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Global Acceptance</h3>
+                        <p>Accepted at millions of outlets worldwide.</p>
+                    </div>
+                    <div class="card">
+                        <h3>24/7 Support</h3>
+                        <p>Customer support for peace of mind during your travels.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="converter">
+            <div class="container">
+                <h2>Currency Converter</h2>
+                <div class="input-group">
+                    <label for="amount">Amount (in USD):</label>
+                    <input type="number" id="amount" placeholder="Enter amount">
+                </div>
+                <div class="input-group">
+                    <label for="currency">Convert to:</label>
+                    <select id="currency">
+                        <option value="0.85">EUR</option>
+                        <option value="74.5">INR</option>
+                        <option value="1.33">AUD</option>
+                    </select>
+                </div>
+                <button id="convert">Convert</button>
+                <p id="result"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 Forex Card - Travel Smart. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
